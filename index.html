@@ -1,93 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="description" content="kavindu bandara, kavindubandara, kavindumishal, mishal bandara,
-    Kavindu Bandara, kavindu bandara athletics, Kavindu, Bandara, Mishal, Infomate, This is Kavindu Bandara's personal website, showcasing his skills, experience, and projects. Learn more about him and connect on social media." />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="kavindu bandara, kavindubandara, kavindumishal, mishal bandara,
-    Kavindu Bandara, kavindu bandara athletics, Kavindu, Bandara, Mishal, Infomate, personal website, portfolio, skills, experience, projects, social media, kavindu6004" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Landing page responsive portfolio</title>
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
 
-<title>Kavindu Bandara | My Personal Website</title>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-        color: #333;
-    }
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Bedimcode</a>
+                </div>
 
-    .container {
-        max-width: 800px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-    .profile-header {
-        text-align: center;
-        margin-bottom: 30px;
-    }
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
 
-    .profile-header img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-bottom: 20px;
-    }
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hello, My name is</span>
+                    <h1 class="home__title anime-text">John Doe</h1>
+                    <span class="home__skill anime-text">Web Developer</span>
+                    
+                    <div>
+                        <a href="#" class="home__button anime-text">DOWNLOAD CV</a>
+                    </div>
+                </div>
 
-    .profile-name {
-        font-size: 24px;
-        font-weight: bold;
-    }
+                <div class="home__img">
+                    <img src="assets/img/img.jpg" alt="">
+                </div>
+                
+                <div class="home__social">
+                    <ion-icon name="logo-facebook" class="home__social-icon"></ion-icon>
+                    <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
+                    <ion-icon name="logo-twitter" class="home__social-icon"></ion-icon>
+                </div>
 
-    .profile-intro {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
+            </div>
+        </main>
 
-    .social-links {
-        text-align: center;
-        margin-bottom: 20px;
-    }
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
-    .social-links a {
-        display: inline-block;
-        margin: 0 10px;
-        font-size: 20px;
-        color: #333;
-    }
-
-    .under-development {
-        text-align: center;
-        font-size: 20px;
-        color: #666;
-        margin-top: 30px;
-    }
-</style>
-</head>
-<body>
-    <div class="container">
-        <div class="profile-header">
-            <img src="mejpg.jpg" alt="Kavindu's Photo">
-            <div class="profile-name">Kavindu</div>
-            <div class="profile-intro">Welcome to my profile!</div>
-        </div>
-        
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/example" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://github.com/example" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://github.com/example" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://github.com/example" target="_blank" rel="noopener noreferrer">Twitter</a>
-            <!-- Add more social media links as needed -->
-        </div>
-
-        <div class="under-development">
-            Website Under Development
-        </div>
-    </div>
-</body>
+        <!-- MAIN -->
+        <script src="assets/js/main.js"></script>
+    
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
 </html>
