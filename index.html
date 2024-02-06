@@ -1,43 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kavindu Bandara | Staging Website</title>
-    <link rel="stylesheet" href="style.css"> </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kavindu</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .name {
+        font-size: 4rem;
+        color: #333;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    .name span {
+        display: inline-block;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .name:hover span {
+        transform: translateY(-10px);
+    }
+
+    .name span:nth-child(1) {
+        animation: move1 2s infinite;
+    }
+
+    .name span:nth-child(2) {
+        animation: move2 2s infinite;
+    }
+
+    .name span:nth-child(3) {
+        animation: move3 2s infinite;
+    }
+
+    @keyframes move1 {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+    }
+
+    @keyframes move2 {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-30px); }
+    }
+
+    @keyframes move3 {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-40px); }
+    }
+</style>
+</head>
 <body>
-    <header>
-        <h1>Kavindu Bandara</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Kavindu Bandara</p>
-    </footer>
+    <div class="container">
+        <h1 class="name">
+            <span>K</span>
+            <span>a</span>
+            <span>v</span>
+            <span>i</span>
+            <span>n</span>
+            <span>d</span>
+            <span>u</span>
+        </h1>
+    </div>
 </body>
 </html>
+
