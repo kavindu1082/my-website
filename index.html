@@ -3,13 +3,33 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kavindu</title>
+<title>Kavindu - Staging Page</title>
 <style>
     body {
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
+        background-color: #0a0a23;
+        color: #fff;
+        overflow: hidden;
+    }
+
+    .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 6px solid #fff;
+        border-top: 6px solid transparent;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: translate(-50%, -50%) rotate(0deg); }
+        100% { transform: translate(-50%, -50%) rotate(360deg); }
     }
 
     .container {
@@ -17,13 +37,15 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
+        animation: fadeIn 1s ease-in-out forwards;
     }
 
     .name {
-        font-size: 4rem;
-        color: #333;
+        font-size: 6rem;
+        color: #fff;
         text-transform: uppercase;
         position: relative;
+        opacity: 0;
     }
 
     .name span {
@@ -61,9 +83,14 @@
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-40px); }
     }
+
+    @keyframes fadeIn {
+        100% { opacity: 1; }
+    }
 </style>
 </head>
 <body>
+    <div class="loader"></div>
     <div class="container">
         <h1 class="name">
             <span>K</span>
@@ -73,16 +100,7 @@
             <span>n</span>
             <span>d</span>
             <span>u</span>
-
-             <span>B</span>
-            <span>a</span>
-            <span>n</span>
-            <span>d</span>
-            <span>a</span>
-            <span>r</span>
-            <span>a</span>
         </h1>
     </div>
 </body>
 </html>
-
