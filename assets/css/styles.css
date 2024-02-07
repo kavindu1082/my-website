@@ -50,6 +50,12 @@ body {
   font-weight: 700;
   overflow: hidden;
 }
+.home_comingsoon h1{
+  color: #FFF;
+}
+.home_comingsoon h1 span{
+color:#ff3753;
+}
 
 h1, h2 {
   margin: 0;
@@ -195,12 +201,9 @@ img {
 }
 
 .home__skill {
-  font-size:10px;
+  font-size: var(--h2-font-size);
 }
-.home__skill h1 {
-  font: size 18px;
-  color: rgb(71, 13, 26);
-}
+
 .home__button {
   display: inline-block;
   margin-top: 1.5rem;
