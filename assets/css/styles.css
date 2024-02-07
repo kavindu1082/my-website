@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 /*----- VARIABLES CSS Y SASS -----*/
 /*Varibles sass*/
 /*Variables css*/
@@ -41,7 +42,13 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+.countdown{
+  margin-top: 1%;
+  position: inherit;
+  color: rgb(174, 139, 139);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
 body {
   margin: 3rem 0 0 0;
   font-family: var(--body-font);
@@ -50,7 +57,6 @@ body {
   font-weight: 700;
   overflow: hidden;
 }
-
 
 h1, h2 {
   margin: 0;
@@ -193,9 +199,12 @@ img {
 
 .home__title {
   font-size: var(--h1-font-size);
-  color: #4E1116;
 }
-
+.launchingsoon span{
+  font-size: 30px;
+  color:#541a1a;
+  font-family:monospace;
+}
 .home__skill {
   font-size: var(--h2-font-size);
 }
