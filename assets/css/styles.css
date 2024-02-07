@@ -197,7 +197,10 @@ img {
 .home__skill {
   font-size:15px;
 }
-
+.home__skill h1 {
+  font: size 25px;
+  color: red;
+}
 .home__button {
   display: inline-block;
   margin-top: 1.5rem;
