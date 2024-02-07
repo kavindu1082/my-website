@@ -18,7 +18,9 @@
   --normal-font-size: 0.93rem;
   --small-font-size: 0.81rem;
 }
-
+.countdown{
+  display:flex;
+}
 @media screen and (min-width: 768px) {
   :root {
     --h1-font-size: 4.5rem;
