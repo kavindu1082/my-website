@@ -50,6 +50,9 @@ body {
   font-weight: 700;
   overflow: hidden;
 }
+.home_comingsoon h1{
+  color: #FFF;
+}
 .home_comingsoon h1 span{
 color:#ff3753;
 }
