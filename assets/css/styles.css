@@ -18,9 +18,19 @@
   --normal-font-size: 0.93rem;
   --small-font-size: 0.81rem;
 }
-.countdown{
+
+/*countdown*/
+.countdown {
   display:flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 5px;
 }
+.time{
+margin: auto;
+}
+
+
+
 @media screen and (min-width: 768px) {
   :root {
     --h1-font-size: 4.5rem;
@@ -44,13 +54,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.countdown{
-  margin-top: 1%;
-  position: inherit;
-  color: rgb(174, 139, 139);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 15px;
-}
+
 body {
   margin: 3rem 0 0 0;
   font-family: var(--body-font);
@@ -167,7 +171,6 @@ img {
 .show {
   top: 3rem;
 }
-
 /*Home*/
 .l-main {
   height: calc(100vh - 3rem);
