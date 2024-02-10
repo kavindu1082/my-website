@@ -19,18 +19,6 @@
   --small-font-size: 0.81rem;
 }
 
-/*countdown*/
-.countdown {
-  display:flex;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 5px;
-}
-.time{
-margin: 5%;
-}
-
-
-
 @media screen and (min-width: 768px) {
   :root {
     --h1-font-size: 4.5rem;
