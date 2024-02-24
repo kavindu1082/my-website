@@ -211,6 +211,16 @@
 /* ------------------------------------------------------------------- 
  * ## spacing and typescale
  * ------------------------------------------------------------------- */
+/* main photo */
+
+.round-frame {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px; /* Adjust this to your desired width */
+    height: 200px; /* Adjust this to your desired height */
+    border: 2px solid #000; /* Optional: add a border */
+}
+/* main photo */
 :root {
   /* spacing
    * base font size: 20px 
